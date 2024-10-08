@@ -4,7 +4,7 @@ import Logo from '../svg/logo.svg';
 
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
-
+    
     return (
         <header className="bg-blue-900 text-white fixed w-full top-0 z-50">
             <div className="container mx-auto px-4">
